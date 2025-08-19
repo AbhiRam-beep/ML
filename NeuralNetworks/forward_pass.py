@@ -3,6 +3,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt 
 from tensorflow.keras import Sequential 
 
+#simple test data for binary classification -> Y=0 if X<3,Y=1 if X>=3
 Xtrain = np.array([0,1,2,3,4,5],dtype=np.float32).reshape(-1,1) 
 Ytrain = np.array([0,0,0,1,1,1],dtype=np.float32).reshape(-1,1)
 
